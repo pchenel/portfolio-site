@@ -1,0 +1,207 @@
+body {
+
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #4f4f4f;
+    color: #D881F6;
+    text-align: center;
+}
+header, footer {
+    background-color: black;
+    margin: 0;
+}
+header {
+    position: relative;
+    display: table;
+    height: auto;
+    padding: 100px 0;
+    background: url(../img/001.jpg) bottom center no-repeat scroll;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+header .intro {
+    display: table-cell;
+    vertical-align: middle;
+}
+h1 {
+    position: absolute;
+    font-size: 50px;
+    margin: 10px auto;
+    bottom: -206px;
+    text-align: center;
+    display: inline;
+    color: #690c87;
+
+}
+header .intro {
+    display: table-cell;
+    vertical-align: middle;
+}
+.container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quote {
+    font-size: 20px;
+}
+.name {
+    font-size: 14px;
+}
+.graph {
+    margin: 20px 10px;
+    background-color: #bebebe;
+    color: #0f0f0f;
+}
+#gallery .graph {
+    border: 3px solid #bebebe;
+}
+#graphics .graph {
+    border: 3px solid #bebebe;
+}
+img {
+    width: 100%;
+}
+#gallery, #author {
+    background-color: black;
+}
+h2 {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.authorPhoto {
+    padding-right: 0;
+    margin-right: 0;
+}
+#author img {
+    width: 70%;
+    margin-right: 0;
+    padding-right: 0;
+}
+#author h4 {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+}
+#author p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+address {
+    font-size: 20px;
+}
+footer p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*navbar*/
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: black;
+    text-transform: uppercase;
+}
+.navbar-custom .navbar-toggle {
+    color: #700D91;
+    font-size: 17px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+    outline: none;
+}
+.navbar-brand {
+    padding: 0;
+}
+.navbar-brand img{
+    width: 35px;
+    margin: 10px 10px;
+}
+.navbar-custom .navbar-brand:focus {
+    outline: none;
+}
+.navbar-custom a {
+    color: #700D91;
+    font-size: 15px;
+}
+.navbar-custom .nav li a {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: none;
+    background-color: transparent;
+}
+.navbar-custom .nav li.active {
+    outline: none;
+}
+.navbar-custom .nav li.active a {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+    color: white;
+}
+@media (min-width: 768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        background: black;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+a {
+    color: #D881F6;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #53076d;
+}
+.btn {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn-default {
+    border: 1px solid #6f0a92;
+    color: #6f0a92;
+    background-color: transparent;
+}
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #6f0a92;
+    outline: none;
+    color: black;
+    background-color: #6f0a92;
+}
