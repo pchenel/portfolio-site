@@ -5,6 +5,67 @@ body {
     color: #D881F6;
     text-align: center;
 }
+/*general*/
+h1 {
+    position: absolute;
+    font-size: 50px;
+    margin: 10px auto;
+    bottom: -206px;
+    text-align: center;
+    display: inline;
+    color: #690c87;
+}
+h2 {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+img {
+    width: 100%;
+}
+a {
+    color: #D881F6;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #53076d;
+}
+.container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.btn {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn-default {
+    border: 1px solid #6f0a92;
+    color: #6f0a92;
+    background-color: transparent;
+}
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #6f0a92;
+    outline: none;
+    color: black;
+    background-color: #6f0a92;
+}
+.graph {
+    margin: 20px 10px;
+    background-color: #bebebe;
+    color: #0f0f0f;
+}
+
+/*header*/
 header, footer {
     background-color: black;
     margin: 0;
@@ -29,81 +90,8 @@ header .intro {
     display: table-cell;
     vertical-align: middle;
 }
-h1 {
-    position: absolute;
-    font-size: 50px;
-    margin: 10px auto;
-    bottom: -206px;
-    text-align: center;
-    display: inline;
-    color: #690c87;
-
-}
-header .intro {
-    display: table-cell;
-    vertical-align: middle;
-}
-.container-fluid {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.quote {
-    font-size: 20px;
-}
-.name {
-    font-size: 14px;
-}
-.graph {
-    margin: 20px 10px;
-    background-color: #bebebe;
-    color: #0f0f0f;
-}
-#gallery .graph {
-    border: 3px solid #bebebe;
-}
-#graphics .graph {
-    border: 3px solid #bebebe;
-}
-img {
-    width: 100%;
-}
-#gallery, #author {
-    background-color: black;
-}
-h2 {
-    padding-bottom: 50px;
-    font-size: 40px;
-}
-.authorPhoto {
-    padding-right: 0;
-    margin-right: 0;
-}
-#author img {
-    width: 70%;
-    margin-right: 0;
-    padding-right: 0;
-}
-#author h4 {
-    font-size: 25px;
-    text-align: left;
-    margin-top: 50px;
-}
-#author p {
-    font-size: 20px;
-    text-align: left;
-    margin-top: 40px;
-}
-address {
-    font-size: 20px;
-}
-footer p {
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
 /*navbar*/
-
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -172,36 +160,62 @@ footer p {
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
 }
-a {
-    color: #D881F6;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+
+/*sections*/
+/*quotes*/
+.quote {
+    font-size: 20px;
 }
-a:hover,
-a:focus {
-    text-decoration: none;
-    color: #53076d;
+
+/*photography*/
+#photography .graph {
+    border: 3px solid #bebebe;
 }
-.btn {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    border-radius: 0;
-    margin-top: 10px;
-    margin-bottom: 20px;
+#photography .graph {
+    border: 3px solid #bebebe;
 }
-.btn-default {
-    border: 1px solid #6f0a92;
-    color: #6f0a92;
-    background-color: transparent;
+#photography, #author {
+    background-color: black;
 }
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #6f0a92;
-    outline: none;
-    color: black;
-    background-color: #6f0a92;
+
+/*graphics*/
+#graphics .graph {
+    border: 3px solid #bebebe;
 }
+
+/*author*/
+.authorPhoto {
+    padding-right: 0;
+    margin-right: 0;
+}
+#author img {
+    width: 70%;
+    margin-right: 0;
+    padding-right: 0;
+}
+#author h4 {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+}
+#author p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+/*contact*/
+address {
+    font-size: 20px;
+}
+
+/*footer*/
+footer p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
